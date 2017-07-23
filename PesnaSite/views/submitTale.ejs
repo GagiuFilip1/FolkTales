@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Pesna</title>
+    <meta name="description" content="../../public/img/logoPesna.png">
+
+
+    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="css/superfish.css" />
+    <link rel="stylesheet" href="css/nivo-slider.css" media="all"  />
+    <link rel="stylesheet" href="css/tweet.css" media="all"  />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="all" href="css/lessframework.css"/>
+
+    <script src="js/modernizr-2.5.3.min.js"></script>
+</head>
+<header>
+
+    <!-- header wrapper -->
+    <div class="wrapper cf">
+        <div id="logo">
+            <a href="/" ><img src="img/logoPesna.png" alt="" /></a>
+        </div>
+    </div><!-- ENDS header wrapper -->
+
+
+
+    <!-- nav -->
+    <nav class="cf">
+        <div class="wrapper cf">
+            <ul id="nav" class="sf-menu">
+                <li><a href="/">HOME<i><b></b></i></a></li>
+                <li><a href="#">DOWNLOAD NOW!<i><b></b></i></a></li>
+                <li><a href="tales">TALES<i><b></b></i></a></li>
+                <li><a href="submitTale">SUBMIT A TALE<i><b></b></i></a></li>
+                <li><a href="about">ABOUT<i><b></b></i></a></li>
+                <li><a href="team">TEAM<i><b></b></i></a></li>
+            </ul>
+            <div id="combo-holder"></div>
+        </div>
+    </nav>
+    <!-- ends nav -->
+
+</header>
+
+<body>
+
+<!-- MAIN -->
+<div role="main" id="main">
+    <div class="wrapper">
+
+        <!-- page-content -->
+        <div class="page-content">
+
+            <h2 class="heading">Submit your Tale!</h2>
+            <!-- form -->
+            <form id="contactForm" action="/uploadb" method="post">
+
+
+                    <p>
+                        <label for="text" >Name of the tale</label>
+                        <input name="talename" type="text" class="form-poshytip" title="Enter the tale's name" />
+
+                    </p>
+                    <p>
+                        <label for="text">Tale description</label>
+                        <textarea  name="taledescription" rows="5" cols="20" class="form-poshytip" title="Enter your description"></textarea>
+                    </p>
+                    <p>
+                        <label for="text" >Your name</label>
+                        <input name="creator" type="text" class="form-poshytip" title="Enter your full name" />
+                    </p>
+                    <p>
+                        <label for="email" >Email</label>
+                        <input name="email" type="text" class="form-poshytip" title="Enter your email address" />
+                    </p>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="panel panel-default">
+                                    <div class="panel-body">
+                                        <span class="glyphicon glyphicon-cloud-upload"></span>
+                                        <h2>.psn Uploader</h2>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar"></div>
+                                        </div>
+                                        <button class="btn btn-lg upload-btn" type="button">Upload your tale</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <input id="upload-input" type="file" onchange="this.form.submit()" name="uploads[]" ></br>
+                <!--  <input id="upload-input" type="file"  name="uploads[]" accept=".psn" ></br> -->
+
+            </form>
+
+            <!-- ENDS form -->
+            <div class="c-1"></div>
+            <div class="c-2"></div>
+            <div class="c-3"></div>
+            <div class="c-4"></div>
+        </div><!-- ENDS page-content -->
+
+
+
+    </div>
+</div>
+<!-- ENDS MAIN -->
+
+<!-- FOOTER -->
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="js/upload.js"></script>
+
+<!-- scripts concatenated and minified via build script -->
+<script src="js/custom.js"></script>
+
+<!-- superfish -->
+<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+<script  src="js/superfish-1.4.8/js/superfish.js"></script>
+<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+<!-- ENDS superfish -->
+
+<script src="js/tweet/jquery.tweet.js" ></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.nivo.slider.js" ></script>
+<script src="js/css3-mediaqueries.js"></script>
+<script src="js/tabs.js"></script>
+<script  src="js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
+<!-- end scripts -->
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<% include header.ejs%>
+
+<!-- MAIN -->
+<div role="main" id="main">
+    <div class="wrapper">
+
+        <!-- page-content -->
+        <div class="page-content portfolio-content">
+
+            <!-- entry-content -->
+            <div class="entry-content cf">
+
+                <!-- SLIDER -->
+                <div class="slider-wrapper theme-default">
+                    <div class="ribbon"></div>
+                    <div id="slider-project" class="nivoSlider">
+                        <img src="img/dummies/slides/01.jpg" alt="" />
+                        <img src="img/dummies/slides/02.jpg" alt="" >
+                        <img src="img/dummies/slides/03.jpg" alt=""  />
+                    </div>
+                </div>
+                <!-- ENDS SLIDER -->
+
+                <h2>REGULAR PAGE</h2>
+                <!-- project content -->
+                <div class="project-content">
+                    <p>
+                        <%= description %>
+                    </p>
+                </div>
+                <!-- ENDS project content -->
+
+                <!-- project info -->
+                <div class="project-info">
+                    <p><strong>Client</strong>  <%= creator %>  </p>
+                    <p><strong>Date</strong><%= date %></p>
+                    <p><strong>Rating</strong><%= rating %></p>
+                    <p><a href="#" class="link-button green">Download tale</a></p>
+                </div>
+                <!-- ENDS project info -->
+
+            </div>
+            <!-- ENDS entry-content -->
+
+            <div class="c-1"></div>
+            <div class="c-2"></div>
+            <div class="c-3"></div>
+            <div class="c-4"></div>
+        </div><!-- ENDS page-content -->
+
+
+        <!-- related -->
+        <div class="related-projects">
+            <h2 class="related-heading">Related projects</h2>
+            <ul class="related-list cf">
+                <li>
+                    <a href="#" class="thumb"><img src="img/dummies/560x300a.jpg" alt="" /></a>
+                    <a href="single.html" class="heading">Pellentesque habitant morbi</a>
+                </li>
+                <li>
+                    <a href="#" class="thumb"><img src="img/dummies/560x300b.jpg" alt="" /></a>
+                    <a href="single.html" class="heading">Pellentesque habitant morbi</a>
+                </li>
+                <li>
+                    <a href="#" class="thumb"><img src="img/dummies/560x300c.jpg" alt="" /></a>
+                    <a href="single.html" class="heading">Pellentesque habitant morbi</a>
+                </li>
+            </ul>
+        </div>
+        <!-- ENDS related -->
+
+
+    </div>
+</div>
+<!-- ENDS MAIN -->
+
+<% include footer.ejs %>
