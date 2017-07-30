@@ -72,7 +72,7 @@ public class GuiButton implements ScreenObject {
 			_reference.camera.setToOrtho(false,Gdx.graphics.getWidth(),Gdx.graphics.getHeight());
 			break;
 		case 1://Multiplayer
-			
+			_reference.reader.ReadEncrypt();
 			break;
 		case 2://Exit
 			Gdx.app.exit();

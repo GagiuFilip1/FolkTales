@@ -1,10 +1,10 @@
 package com.pesna.screens;
 
 import com.pesna.Main;
-import com.pesna.abstracts.SpellObject;
-import com.pesna.entities.EnemyObject;
+import com.pesna.entities.Bear;
+import com.pesna.entities.EnemyBot;
 import com.pesna.objects.ScreenObject;
-import java.util.ArrayList;
+
 import java.util.LinkedList;
 
 public interface IScreen {
@@ -22,5 +22,5 @@ public interface IScreen {
 
       void ObjectForceAdd(ScreenObject newObject);
 
-      LinkedList<EnemyObject> GetLevelEnemy();
+      LinkedList<Bear> GetLevelEnemy();
 }

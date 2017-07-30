@@ -1,28 +1,36 @@
 package com.pesna.init;
 
+import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.assets.AssetManager;
 import com.badlogic.gdx.graphics.Texture;
 import com.pesna.Main;
 
+import java.util.Objects;
+
 public class LevelManager {
-	public Texture platform,background;
+	public Texture platform,background, over;
+	public String platformSeter, backgroundSeter = "";
 	
-	public LevelManager ( Main _reference )
+	public void assignTextures( )
 	{
-		//Load map + parallaxing factors + loops... bla bla bla
-		registerTextures( _reference.assetManager );
+	        if(Objects.equals(platformSeter, "") || Objects.equals(backgroundSeter, "")) {
+                System.out.println("here" + platformSeter + " "  + backgroundSeter);
+                platform = new Texture(Gdx.files.internal("level/platform.png"));
+                background = new Texture(Gdx.files.internal("background1.png"));
+                over = new Texture(Gdx.files.internal("b22.PNG"));
+            }
+            else
+            {
+                System.out.println("omfg");
+                platform = new Texture(Gdx.files.internal(platformSeter.replace(" ","")));
+                background = new Texture(Gdx.files.internal(backgroundSeter.replace(" ","")));
+            }
 	}
-	private void registerTextures( AssetManager assetManager )
-	{
-		assetManager.load("level/platform.png", Texture.class);
-		assetManager.load("level/bckgr.png", Texture.class);
-		assetManager.load( "background1.png", Texture.class );
-	}
-	
-	public void assignTextures( AssetManager assetManager )
-	{
-		platform = assetManager.get( "level/platform.png" );
-		//background = assetManager.get("level/bckgr.png");
-		background = assetManager.get( "background1.png" );
-	}
+
+	public void getTextures(String a, String b)
+    {
+        platformSeter = "level/" + b;
+        backgroundSeter = a;
+        assignTextures();
+    }
 }

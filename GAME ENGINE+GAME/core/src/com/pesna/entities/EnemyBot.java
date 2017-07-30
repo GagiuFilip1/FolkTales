@@ -35,6 +35,8 @@ public class EnemyBot implements ScreenObject
 
     public SpriterAnimation runAnimation, attackAnimation, idleAnimation;
 
+    public boolean UPDATING = false , DRAWING = false, ANIMATIONS_WORKING = false;
+
     public EnemyBot( Main _reference, int posX , int posY, int GraphicsID, int BehaviourID )
     {
         hpLabel = new SimpleLabel(_reference);
@@ -87,6 +89,8 @@ public class EnemyBot implements ScreenObject
             run();
         else
             idle();
+
+        UPDATING = true;
     }
  
     public void draw(Main _reference) {
@@ -99,9 +103,9 @@ public class EnemyBot implements ScreenObject
             spriterPlayer.setPosition(x*reverseScale,(y+spriterAnimation.yOffset)*reverseScale);
             spriterPlayer.update();
 
-            if ( spriterPlayer.flippedX() == 1 && flip == true )
+            if ( spriterPlayer.flippedX() == 1 && flip)
                 spriterPlayer.flipX();
-            if ( spriterPlayer.flippedX() == -1 && flip == false )
+            if ( spriterPlayer.flippedX() == -1 && !flip)
                 spriterPlayer.flipX();
 
             Matrix4 cameracombined = _reference.camera.combined;
@@ -113,6 +117,8 @@ public class EnemyBot implements ScreenObject
 
             drawHealth();
         }
+
+        DRAWING = true;
     }
 
     public void setAnimation( SpriterAnimation animation )
@@ -130,15 +136,20 @@ public class EnemyBot implements ScreenObject
         //spriterPlayer.setAnimation(spriterPlayer.getEntity().getAnimation(animation.animationID));
 
         spriterPlayer.speed = animation.animationSpeed;
+        ANIMATIONS_WORKING = true;
     }
 
     /**Sets the EnemyBot on the attacking routine*/
+
     public void attack()
     {
         flipAccordingly();
         setAnimation(attackAnimation);
-        if ( spriterPlayer.getTime() == spriterPlayer.getAnimation().length )
-            dealDamage();
+        System.out.println( spriterPlayer.getTime()+"  "+ spriterPlayer.getAnimation().length / 10);
+        if(spriterPlayer.getTime() > spriterPlayer.getAnimation().length / 1.5) {
+            dealDamage();spriterPlayer.setTime(0);
+        }
+
     }
 
     /**Sets the EnemyBot on the chasing routine*/
@@ -163,7 +174,7 @@ public class EnemyBot implements ScreenObject
 
     public void dealDamage()
     {
-        System.out.println("EnemyBot hit the player");
+        reference.player.TakeDamage(5);
     }
 
     public void flipAccordingly()
@@ -172,6 +183,11 @@ public class EnemyBot implements ScreenObject
         {
             spriterPlayer.flipX();
         }
+    }
+
+    public void TakeDamange(float dmg)
+    {
+        HP -=  dmg;
     }
 
     private boolean expAdded = false;
@@ -194,7 +210,7 @@ public class EnemyBot implements ScreenObject
     private void drawHealth()
     {
         float procent;
-        procent = (HP * 140)/ 10000;
+        procent = (HP * 140)/ 1000;
         reference.shapeRenderer.begin(ShapeRenderer.ShapeType.Filled);
         reference.shapeRenderer.setColor(Color.FIREBRICK);
         reference.shapeRenderer.rect(x - 40, y +400,procent,20);
@@ -203,6 +219,11 @@ public class EnemyBot implements ScreenObject
         hpLabel.Draw(String.valueOf(HP));
         nameLabel.SetPosition(x + 15, y + 460);
         nameLabel.Draw("Urs");
+    }
+
+    public boolean IS_IN_RANGE(Player player, float range)
+    {
+        return Math.abs(Math.abs(player.x) - x) <= ATTACK_RANGE;
     }
 
     public int distanceToTarget()

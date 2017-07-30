@@ -16,6 +16,7 @@ import com.badlogic.gdx.utils.ScreenUtils;
 import com.badlogic.gdx.utils.TimeUtils;
 import com.pesna.init.GameRegistry;
 import com.pesna.init.ScreenManager;
+import com.pesna.mapReader.Reader;
 import com.pesna.player.Player;
 import com.pesna.spriter.LibGdx.LibGdxDrawer;
 
@@ -34,10 +35,12 @@ public class Main extends ApplicationAdapter {
 	public ScreenManager screenManager;
 	public GameRegistry gameRegistry;
 
-	public LibGdxDrawer werewolfDrawer, pesnaIdleDrawer, pesnaMoveDrawer;
+	public LibGdxDrawer werewolfDrawer, pesnaIdleDrawer, pesnaMoveDrawer, fireballDrawer;
 
 	public BitmapFont font;
 	//public Viewport viewport;
+
+	public Reader reader;
 
 	public boolean orthoscale = false;
 
@@ -51,6 +54,7 @@ public class Main extends ApplicationAdapter {
 		assetManager = new AssetManager();
 		shapeRenderer = new ShapeRenderer();
 		gameRegistry = new GameRegistry(this);
+		reader = new Reader(this);
 		try {
 			player = new Player( this );
 			//playerSecond = new PlayerSecond( this );

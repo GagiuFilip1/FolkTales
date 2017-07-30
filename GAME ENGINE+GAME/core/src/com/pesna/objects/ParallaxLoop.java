@@ -26,14 +26,14 @@ public class ParallaxLoop{
 	
 	public void draw( Vector3 camerapos, SpriteBatch batch )
 	{
-		if ( x + (int)(camerapos.x*factor) + width < camerapos.x-Gdx.graphics.getWidth()/2 )
+		if ((x + (int) (camerapos.x * factor) + width) < (camerapos.x - Gdx.graphics.getWidth() / 2))
 			x += width;
-		if ( x + (int)(camerapos.x*factor) > camerapos.x-Gdx.graphics.getWidth()/2 )
+		if ((x + (int) (camerapos.x * factor)) > (camerapos.x - Gdx.graphics.getWidth() / 2))
 			x -= width;
 		
 		for ( int i = 0; i < items; i++ )
 		{
-			batch.draw( texture, x + (int)(camerapos.x*factor) + width*i, y );
+			batch.draw( texture, x + (int) (camerapos.x * factor) + (width * i), y );
 		}
 	}
 }

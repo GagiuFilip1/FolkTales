@@ -25,8 +25,9 @@ public class SpriterAnimation {
     public static final SpriterAnimation run = new SpriterAnimation( 1, 0, 0, 115, true, 0.2f );
     public static final SpriterAnimation idle = new SpriterAnimation( 1, 0, 0, 145, false, 0.16f );
     public static final SpriterAnimation attack = new SpriterAnimation( 1, 2, 0, 115, true, 0.2f );
-
-    public final int animationSpeed, entityID, animationID, yOffset;
+    public static final SpriterAnimation jump = new SpriterAnimation(1,1,1,115,true,0.2f);
+    public static final SpriterAnimation bowshoot = new SpriterAnimation( 1, 0, 1,145, false,0.16f);
+    public  int animationSpeed, entityID, animationID, yOffset;
     public final boolean mainLoader;
     public final float projectionScale;
 

@@ -3,7 +3,8 @@ package com.pesna.screens;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.pesna.Main;
-import com.pesna.entities.EnemyObject;
+import com.pesna.entities.Bear;
+import com.pesna.entities.EnemyBot;
 import com.pesna.objects.ScreenObject;
 import java.util.LinkedList;
 
@@ -43,7 +44,7 @@ public class ErrorScreen implements IScreen {
 	}
 
 	@Override
-	public LinkedList<EnemyObject> GetLevelEnemy() {
+	public LinkedList<Bear> GetLevelEnemy() {
 		return null;
 	}
 }

@@ -43,7 +43,7 @@ public class Berserk implements SpellObject
       if(USED)
       {
          LocalTimer(IN_SCENE_TIME);
-         if(FINISHED == true)
+         if(FINISHED)
          {
             thisAI.SetBuff("Attack" , -15);
             Destroyed = true;

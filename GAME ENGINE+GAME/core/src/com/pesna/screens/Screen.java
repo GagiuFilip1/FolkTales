@@ -1,6 +1,8 @@
 package com.pesna.screens;
 
-import com.pesna.entities.EnemyObject;
+import com.pesna.entities.Bear;
+import com.pesna.entities.EnemyBot;
+
 import java.util.Iterator;
 
 import com.badlogic.gdx.utils.Array;
@@ -42,7 +44,7 @@ public class Screen implements IScreen {
 	}
 
 	@Override
-	public LinkedList<EnemyObject> GetLevelEnemy() {
+	public LinkedList<Bear> GetLevelEnemy() {
 		return null;
 	}
 

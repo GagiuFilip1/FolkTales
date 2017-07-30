@@ -26,7 +26,7 @@ public class Spawner implements ScreenObject
     npc = _toSpawn;
     reference = _reference;
     lvlBoss = new ForestBoss(_reference , reference.player.x + 1000 , reference.player.y);
-    for(int i = 0 ;i < 60 ;i++)
+    for(int i = 0 ;i < 5 ;i++)
     {
       mobCap.add(new EnemyObject(_reference , _reference.player.x + 1000 , _reference.player.y));
     }

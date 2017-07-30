@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r10">
+    <folder id="0">
+        <file id="0" name="luci-birjaru_0019_corp.png" width="511" height="1028" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="luci-birjaru_0018_brand-spate.png" width="255" height="328" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="luci-birjaru_0017_brand-fata.png" width="221" height="391" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="luci-birjaru_0018_cap.png" width="162" height="288" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="luci-birjaru_0019_mana-spate.png" width="99" height="112" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="luci-birjaru_0021_antebrat-spate.png" width="210" height="113" pivot_x="0" pivot_y="1"/>
+        <file id="6" name="luci-birjaru_0015_antebrat-fata.png" width="239" height="162" pivot_x="0" pivot_y="1"/>
+        <file id="7" name="luci-birjaru_0015_mana-fata.png" width="173" height="142" pivot_x="0" pivot_y="1"/>
+        <file id="8" name="luci-birjaru_0014_fire-forming-1-fata.png" width="118" height="228" pivot_x="0" pivot_y="1"/>
+        <file id="9" name="luci-birjaru_0013_fire-forming-1-spate.png" width="140" height="103" pivot_x="0" pivot_y="1"/>
+        <file id="10" name="luci-birjaru_0012_Fire-forming-2-fata.png" width="157" height="126" pivot_x="0" pivot_y="1"/>
+        <file id="11" name="luci-birjaru_0011_fire-forming-2-mana-spate.png" width="157" height="137" pivot_x="0" pivot_y="1"/>
+        <file id="12" name="luci-birjaru_0010_fire-fomring-3.png" width="135" height="172" pivot_x="0" pivot_y="1"/>
+        <file id="13" name="luci-birjaru_0009_fire-forming-4.png" width="138" height="171" pivot_x="0" pivot_y="1"/>
+        <file id="14" name="luci-birjaru_0008_fire-fomring-5.png" width="95" height="244" pivot_x="0" pivot_y="1"/>
+        <file id="15" name="luci-birjaru_0001_mana-aruncare.png" width="150" height="293" pivot_x="0" pivot_y="1"/>
+        <file id="16" name="luci-birjaru_0000_mana-aruncare-fata.png" width="151" height="306" pivot_x="0" pivot_y="1"/>
+        <file id="17" name="luci-birjaru_0002_fireball-toss-1.png" width="469" height="156" pivot_x="0" pivot_y="1"/>
+        <file id="18" name="luci-birjaru_0001_fireball-toss-2.png" width="438" height="135" pivot_x="0" pivot_y="1"/>
+        <file id="19" name="luci-birjaru_0000_fire-toss-3.png" width="458" height="131" pivot_x="0" pivot_y="1"/>
+        <file id="20" name="luci-birjaru_0011_Fire-forming-2-fata.png" width="157" height="126" pivot_x="0" pivot_y="1"/>
+        <file id="21" name="luci-birjaru_0010_fire-forming-2-mana-spate.png" width="157" height="137" pivot_x="0" pivot_y="1"/>
+        <file id="22" name="luci-birjaru_0020_mana-spate.png" width="99" height="112" pivot_x="0" pivot_y="1"/>
+        <file id="23" name="luci-birjaru_0007_fire-fomring-5.png" width="95" height="244" pivot_x="0" pivot_y="1"/>
+        <file id="24" name="luci-birjaru_0011_mana-fata.png" width="173" height="142" pivot_x="0" pivot_y="1"/>
+        <file id="25" name="luci-birjaru_0002_spike-3.png" width="164" height="471" pivot_x="0" pivot_y="1"/>
+        <file id="26" name="luci-birjaru_0002_spike-2.png" width="129" height="15" pivot_x="0" pivot_y="1"/>
+        <file id="27" name="luci-birjaru_0003_spike-1.png" width="263" height="46" pivot_x="0" pivot_y="1"/>
+        <file id="28" name="luci-birjaru_0000_Layer-143.png" width="79" height="212" pivot_x="0" pivot_y="1"/>
+        <file id="29" name="luci-birjaru_0001_Layer-141.png" width="83" height="243" pivot_x="0" pivot_y="1"/>
+        <file id="30" name="luci-birjaru_0002_Layer-139.png" width="83" height="241" pivot_x="0" pivot_y="1"/>
+        <file id="31" name="luci-birjaru_0003_Layer-137.png" width="83" height="235" pivot_x="0" pivot_y="1"/>
+        <file id="32" name="luci-birjaru_0004_Layer-135.png" width="81" height="220" pivot_x="0" pivot_y="1"/>
+        <file id="33" name="luci-birjaru_0005_Layer-133.png" width="82" height="245" pivot_x="0" pivot_y="1"/>
+        <file id="34" name="luci-birjaru_0006_Layer-131.png" width="80" height="243" pivot_x="0" pivot_y="1"/>
+        <file id="35" name="luci-birjaru_0007_Layer-129.png" width="82" height="230" pivot_x="0" pivot_y="1"/>
+        <file id="36" name="luci-birjaru_0008_Layer-127.png" width="79" height="200" pivot_x="0" pivot_y="1"/>
+        <file id="37" name="luci-birjaru_0009_Layer-125.png" width="80" height="244" pivot_x="0" pivot_y="1"/>
+        <file id="38" name="luci-birjaru_0010_Layer-123.png" width="80" height="226" pivot_x="0" pivot_y="1"/>
+        <file id="39" name="luci-birjaru_0011_Layer-121.png" width="79" height="215" pivot_x="0" pivot_y="1"/>
+        <file id="40" name="luci-birjaru_0012_Layer-119.png" width="80" height="185" pivot_x="0" pivot_y="1"/>
+        <file id="41" name="luci-birjaru_0013_Layer-117.png" width="78" height="241" pivot_x="0" pivot_y="1"/>
+        <file id="42" name="luci-birjaru_0014_Layer-115.png" width="77" height="269" pivot_x="0" pivot_y="1"/>
+        <file id="43" name="luci-birjaru_0015_Layer-113.png" width="78" height="260" pivot_x="0" pivot_y="1"/>
+        <file id="44" name="luci-birjaru_0016_Layer-111.png" width="78" height="252" pivot_x="0" pivot_y="1"/>
+        <file id="45" name="luci-birjaru_0017_Layer-109.png" width="83" height="234" pivot_x="0" pivot_y="1"/>
+        <file id="46" name="luci-birjaru_0018_Layer-107.png" width="84" height="230" pivot_x="0" pivot_y="1"/>
+        <file id="47" name="luci-birjaru_0019_Layer-105.png" width="81" height="247" pivot_x="0" pivot_y="1"/>
+        <file id="48" name="luci-birjaru_0020_Layer-103.png" width="81" height="226" pivot_x="0" pivot_y="1"/>
+        <file id="49" name="luci-birjaru_0021_Layer-101.png" width="83" height="263" pivot_x="0" pivot_y="1"/>
+        <file id="50" name="luci-birjaru_0022_Layer-99.png" width="83" height="249" pivot_x="0" pivot_y="1"/>
+        <file id="51" name="luci-birjaru_0023_Layer-97.png" width="79" height="231" pivot_x="0" pivot_y="1"/>
+        <file id="52" name="luci-birjaru_0024_Layer-95.png" width="79" height="252" pivot_x="0" pivot_y="1"/>
+        <file id="53" name="luci-birjaru_0025_Layer-93.png" width="79" height="231" pivot_x="0" pivot_y="1"/>
+        <file id="54" name="luci-birjaru_0026_Layer-91.png" width="85" height="202" pivot_x="0" pivot_y="1"/>
+        <file id="55" name="luci-birjaru_0027_Layer-89.png" width="88" height="241" pivot_x="0" pivot_y="1"/>
+        <file id="56" name="luci-birjaru_0028_Layer-87.png" width="89" height="279" pivot_x="0" pivot_y="1"/>
+        <file id="57" name="luci-birjaru_0029_Layer-85.png" width="135" height="274" pivot_x="0" pivot_y="1"/>
+        <file id="58" name="luci-birjaru_0030_Layer-83.png" width="119" height="287" pivot_x="0" pivot_y="1"/>
+        <file id="59" name="luci-birjaru_0031_Layer-81.png" width="97" height="273" pivot_x="0" pivot_y="1"/>
+        <file id="60" name="luci-birjaru_0032_Layer-79.png" width="88" height="265" pivot_x="0" pivot_y="1"/>
+        <file id="61" name="luci-birjaru_0033_Layer-77.png" width="81" height="281" pivot_x="0" pivot_y="1"/>
+        <file id="62" name="luci-birjaru_0034_Layer-75.png" width="85" height="256" pivot_x="0" pivot_y="1"/>
+        <file id="63" name="luci-birjaru_0035_Layer-73.png" width="90" height="266" pivot_x="0" pivot_y="1"/>
+        <file id="64" name="luci-birjaru_0036_Layer-71.png" width="84" height="245" pivot_x="0" pivot_y="1"/>
+        <file id="65" name="luci-birjaru_0037_Layer-69.png" width="81" height="268" pivot_x="0" pivot_y="1"/>
+        <file id="66" name="luci-birjaru_0038_Layer-67.png" width="82" height="249" pivot_x="0" pivot_y="1"/>
+        <file id="67" name="luci-birjaru_0039_Layer-65.png" width="77" height="216" pivot_x="0" pivot_y="1"/>
+        <file id="68" name="luci-birjaru_0040_Layer-63.png" width="76" height="236" pivot_x="0" pivot_y="1"/>
+        <file id="69" name="luci-birjaru_0041_Layer-61.png" width="78" height="248" pivot_x="0" pivot_y="1"/>
+        <file id="70" name="luci-birjaru_0042_Layer-59.png" width="77" height="222" pivot_x="0" pivot_y="1"/>
+        <file id="71" name="luci-birjaru_0043_Layer-57.png" width="78" height="203" pivot_x="0" pivot_y="1"/>
+        <file id="72" name="luci-birjaru_0044_Layer-55.png" width="79" height="217" pivot_x="0" pivot_y="1"/>
+        <file id="73" name="luci-birjaru_0045_Layer-53.png" width="78" height="241" pivot_x="0" pivot_y="1"/>
+        <file id="74" name="luci-birjaru_0046_Layer-51.png" width="81" height="266" pivot_x="0" pivot_y="1"/>
+        <file id="75" name="luci-birjaru_0047_Layer-49.png" width="78" height="249" pivot_x="0" pivot_y="1"/>
+        <file id="76" name="luci-birjaru_0048_Layer-47.png" width="83" height="226" pivot_x="0" pivot_y="1"/>
+        <file id="77" name="luci-birjaru_0049_Layer-45.png" width="84" height="249" pivot_x="0" pivot_y="1"/>
+        <file id="78" name="luci-birjaru_0050_Layer-43.png" width="82" height="219" pivot_x="0" pivot_y="1"/>
+        <file id="79" name="luci-birjaru_0051_Layer-41.png" width="83" height="219" pivot_x="0" pivot_y="1"/>
+        <file id="80" name="luci-birjaru_0052_Layer-39.png" width="82" height="234" pivot_x="0" pivot_y="1"/>
+        <file id="81" name="luci-birjaru_0053_Layer-37.png" width="82" height="255" pivot_x="0" pivot_y="1"/>
+        <file id="82" name="luci-birjaru_0054_Layer-35.png" width="85" height="246" pivot_x="0" pivot_y="1"/>
+        <file id="83" name="luci-birjaru_0055_Layer-33.png" width="85" height="271" pivot_x="0" pivot_y="1"/>
+        <file id="84" name="luci-birjaru_0056_Layer-31.png" width="86" height="253" pivot_x="0" pivot_y="1"/>
+        <file id="85" name="luci-birjaru_0057_Layer-29.png" width="78" height="230" pivot_x="0" pivot_y="1"/>
+        <file id="86" name="luci-birjaru_0058_Layer-27.png" width="79" height="286" pivot_x="0" pivot_y="1"/>
+        <file id="87" name="luci-birjaru_0059_Layer-25.png" width="81" height="259" pivot_x="0" pivot_y="1"/>
+        <file id="88" name="luci-birjaru_0060_Layer-23.png" width="87" height="215" pivot_x="0" pivot_y="1"/>
+        <file id="89" name="luci-birjaru_0061_Layer-21.png" width="80" height="247" pivot_x="0" pivot_y="1"/>
+        <file id="90" name="luci-birjaru_0062_Layer-19.png" width="79" height="272" pivot_x="0" pivot_y="1"/>
+        <file id="91" name="luci-birjaru_0063_Layer-18.png" width="82" height="255" pivot_x="0" pivot_y="1"/>
+        <file id="92" name="luci-birjaru_0064_Layer-16.png" width="79" height="222" pivot_x="0" pivot_y="1"/>
+        <file id="93" name="luci-birjaru_0065_Layer-14.png" width="80" height="244" pivot_x="0" pivot_y="1"/>
+        <file id="94" name="luci-birjaru_0066_Layer-10.png" width="81" height="256" pivot_x="0" pivot_y="1"/>
+        <file id="95" name="luci-birjaru_0067_Layer-8.png" width="82" height="226" pivot_x="0" pivot_y="1"/>
+        <file id="96" name="luci-birjaru_0068_Layer-6.png" width="81" height="247" pivot_x="0" pivot_y="1"/>
+        <file id="97" name="luci-birjaru_0069_Layer-4.png" width="79" height="247" pivot_x="0" pivot_y="1"/>
+        <file id="98" name="luci-birjaru_0070_Layer-2.png" width="79" height="249" pivot_x="0" pivot_y="1"/>
+        <file id="99" name="luci-birjaru_0015_Layer-1.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="100" name="luci-birjaru_0014_cap.png" width="162" height="288" pivot_x="0" pivot_y="1"/>
+        <file id="101" name="luci-birjaru_0014_Layer-2.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="102" name="luci-birjaru_0013_Layer-3.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="103" name="luci-birjaru_0012_Layer-4.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="104" name="luci-birjaru_0011_Layer-5.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="105" name="luci-birjaru_0010_Layer-6.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="106" name="luci-birjaru_0009_Layer-7.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="107" name="luci-birjaru_0008_Layer-8.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="108" name="luci-birjaru_0007_Layer-9.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="109" name="luci-birjaru_0006_Layer-10.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="110" name="luci-birjaru_0005_Layer-11.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="111" name="luci-birjaru_0004_Layer-12.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="112" name="luci-birjaru_0003_Layer-13.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="113" name="luci-birjaru_0002_Layer-14.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="114" name="luci-birjaru_0001_Layer-15.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+        <file id="115" name="luci-birjaru_0000_Layer-16.png" width="550" height="400" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="fireball 2">
+        <animation id="0" name="NewAnimation" length="140" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="2">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="4">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="6">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="8">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="10">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="12">
+                    <object_ref id="0" timeline="5" key="1" z_index="0"/>
+                </key>
+                <key id="7" time="14">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="8" time="16">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                </key>
+                <key id="9" time="18">
+                    <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
+                <key id="10" time="20">
+                    <object_ref id="0" timeline="9" key="0" z_index="0"/>
+                </key>
+                <key id="11" time="22">
+                    <object_ref id="0" timeline="10" key="0" z_index="0"/>
+                </key>
+                <key id="12" time="24">
+                    <object_ref id="0" timeline="11" key="0" z_index="0"/>
+                </key>
+                <key id="13" time="26">
+                    <object_ref id="0" timeline="12" key="0" z_index="0"/>
+                </key>
+                <key id="14" time="28">
+                    <object_ref id="0" timeline="13" key="0" z_index="0"/>
+                </key>
+                <key id="15" time="30">
+                    <object_ref id="0" timeline="14" key="0" z_index="0"/>
+                </key>
+                <key id="16" time="32">
+                    <object_ref id="0" timeline="15" key="0" z_index="0"/>
+                </key>
+                <key id="17" time="34">
+                    <object_ref id="0" timeline="16" key="0" z_index="0"/>
+                </key>
+                <key id="18" time="36">
+                    <object_ref id="0" timeline="17" key="0" z_index="0"/>
+                </key>
+                <key id="19" time="38">
+                    <object_ref id="0" timeline="18" key="0" z_index="0"/>
+                </key>
+                <key id="20" time="40">
+                    <object_ref id="0" timeline="19" key="0" z_index="0"/>
+                </key>
+                <key id="21" time="42">
+                    <object_ref id="0" timeline="20" key="0" z_index="0"/>
+                </key>
+                <key id="22" time="44">
+                    <object_ref id="0" timeline="21" key="0" z_index="0"/>
+                </key>
+                <key id="23" time="46">
+                    <object_ref id="0" timeline="22" key="0" z_index="0"/>
+                </key>
+                <key id="24" time="48">
+                    <object_ref id="0" timeline="23" key="0" z_index="0"/>
+                </key>
+                <key id="25" time="50">
+                    <object_ref id="0" timeline="24" key="0" z_index="0"/>
+                </key>
+                <key id="26" time="52">
+                    <object_ref id="0" timeline="25" key="0" z_index="0"/>
+                </key>
+                <key id="27" time="54">
+                    <object_ref id="0" timeline="26" key="0" z_index="0"/>
+                </key>
+                <key id="28" time="56">
+                    <object_ref id="0" timeline="27" key="0" z_index="0"/>
+                </key>
+                <key id="29" time="58">
+                    <object_ref id="0" timeline="28" key="0" z_index="0"/>
+                </key>
+                <key id="30" time="60">
+                    <object_ref id="0" timeline="29" key="0" z_index="0"/>
+                </key>
+                <key id="31" time="62">
+                    <object_ref id="0" timeline="30" key="0" z_index="0"/>
+                </key>
+                <key id="32" time="64">
+                    <object_ref id="0" timeline="31" key="0" z_index="0"/>
+                </key>
+                <key id="33" time="66">
+                    <object_ref id="0" timeline="32" key="0" z_index="0"/>
+                </key>
+                <key id="34" time="68">
+                    <object_ref id="0" timeline="33" key="0" z_index="0"/>
+                </key>
+                <key id="35" time="70">
+                    <object_ref id="0" timeline="34" key="0" z_index="0"/>
+                </key>
+                <key id="36" time="72">
+                    <object_ref id="0" timeline="35" key="0" z_index="0"/>
+                </key>
+                <key id="37" time="74">
+                    <object_ref id="0" timeline="36" key="0" z_index="0"/>
+                </key>
+                <key id="38" time="76">
+                    <object_ref id="0" timeline="37" key="0" z_index="0"/>
+                </key>
+                <key id="39" time="78">
+                    <object_ref id="0" timeline="38" key="0" z_index="0"/>
+                </key>
+                <key id="40" time="80">
+                    <object_ref id="0" timeline="39" key="0" z_index="0"/>
+                </key>
+                <key id="41" time="82">
+                    <object_ref id="0" timeline="40" key="0" z_index="0"/>
+                </key>
+                <key id="42" time="84">
+                    <object_ref id="0" timeline="41" key="0" z_index="0"/>
+                </key>
+                <key id="43" time="86">
+                    <object_ref id="0" timeline="42" key="0" z_index="0"/>
+                </key>
+                <key id="44" time="88">
+                    <object_ref id="0" timeline="43" key="0" z_index="0"/>
+                </key>
+                <key id="45" time="90">
+                    <object_ref id="0" timeline="44" key="0" z_index="0"/>
+                </key>
+                <key id="46" time="92">
+                    <object_ref id="0" timeline="45" key="0" z_index="0"/>
+                </key>
+                <key id="47" time="94">
+                    <object_ref id="0" timeline="46" key="0" z_index="0"/>
+                </key>
+                <key id="48" time="96">
+                    <object_ref id="0" timeline="47" key="0" z_index="0"/>
+                </key>
+                <key id="49" time="98">
+                    <object_ref id="0" timeline="48" key="0" z_index="0"/>
+                </key>
+                <key id="50" time="100">
+                    <object_ref id="0" timeline="49" key="0" z_index="0"/>
+                </key>
+                <key id="51" time="102">
+                    <object_ref id="0" timeline="50" key="0" z_index="0"/>
+                </key>
+                <key id="52" time="104">
+                    <object_ref id="0" timeline="51" key="0" z_index="0"/>
+                </key>
+                <key id="53" time="106">
+                    <object_ref id="0" timeline="52" key="0" z_index="0"/>
+                </key>
+                <key id="54" time="108">
+                    <object_ref id="0" timeline="53" key="0" z_index="0"/>
+                </key>
+                <key id="55" time="110">
+                    <object_ref id="0" timeline="54" key="0" z_index="0"/>
+                </key>
+                <key id="56" time="112">
+                    <object_ref id="0" timeline="55" key="0" z_index="0"/>
+                </key>
+                <key id="57" time="114">
+                    <object_ref id="0" timeline="56" key="0" z_index="0"/>
+                </key>
+                <key id="58" time="116">
+                    <object_ref id="0" timeline="57" key="0" z_index="0"/>
+                </key>
+                <key id="59" time="118">
+                    <object_ref id="0" timeline="58" key="0" z_index="0"/>
+                </key>
+                <key id="60" time="120">
+                    <object_ref id="0" timeline="59" key="0" z_index="0"/>
+                </key>
+                <key id="61" time="122">
+                    <object_ref id="0" timeline="60" key="0" z_index="0"/>
+                </key>
+                <key id="62" time="124">
+                    <object_ref id="0" timeline="61" key="0" z_index="0"/>
+                </key>
+                <key id="63" time="126">
+                    <object_ref id="0" timeline="62" key="0" z_index="0"/>
+                </key>
+                <key id="64" time="128">
+                    <object_ref id="0" timeline="63" key="0" z_index="0"/>
+                </key>
+                <key id="65" time="130">
+                    <object_ref id="0" timeline="64" key="0" z_index="0"/>
+                </key>
+                <key id="66" time="132">
+                    <object_ref id="0" timeline="65" key="0" z_index="0"/>
+                </key>
+                <key id="67" time="134">
+                    <object_ref id="0" timeline="66" key="0" z_index="0"/>
+                </key>
+                <key id="68" time="136">
+                    <object_ref id="0" timeline="67" key="0" z_index="0"/>
+                </key>
+                <key id="69" time="138">
+                    <object_ref id="0" timeline="68" key="0" z_index="0"/>
+                </key>
+                <key id="70" time="140">
+                    <object_ref id="0" timeline="69" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="luci-birjaru_0000_Layer-143">
+                <key id="0" spin="0">
+                    <object folder="0" file="28" x="-40.449438" y="186.516854" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="luci-birjaru_0001_Layer-141">
+                <key id="0" time="2" spin="0">
+                    <object folder="0" file="29" x="-40.449438" y="217.977528" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="luci-birjaru_0002_Layer-139">
+                <key id="0" time="4" spin="0">
+                    <object folder="0" file="30" x="-41.573034" y="210.11236" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="luci-birjaru_0003_Layer-137">
+                <key id="0" time="6" spin="0">
+                    <object folder="0" file="31" x="-42.696629" y="205.617978" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="luci-birjaru_0004_Layer-135">
+                <key id="0" time="8" spin="0">
+                    <object folder="0" file="32" x="-39.325843" y="189.88764" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="luci-birjaru_0005_Layer-133">
+                <key id="0" time="10" spin="0">
+                    <object folder="0" file="33" x="-39.325843" y="212.359551" angle="0"/>
+                </key>
+                <key id="1" time="12" spin="0">
+                    <object folder="0" file="33" x="-40.449438" y="215.730337" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="luci-birjaru_0007_Layer-129">
+                <key id="0" time="14" spin="0">
+                    <object folder="0" file="35" x="-39.325843" y="201.123596" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="luci-birjaru_0008_Layer-127">
+                <key id="0" time="16" spin="0">
+                    <object folder="0" file="36" x="-38.202247" y="177.52809" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="luci-birjaru_0009_Layer-125">
+                <key id="0" time="18" spin="0">
+                    <object folder="0" file="37" x="-38.202247" y="217.977528" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="luci-birjaru_0010_Layer-123">
+                <key id="0" time="20" spin="0">
+                    <object folder="0" file="38" x="-41.573034" y="198.876404" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="luci-birjaru_0011_Layer-121">
+                <key id="0" time="22" spin="0">
+                    <object folder="0" file="39" x="-41.573034" y="187.640449" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="luci-birjaru_0012_Layer-119">
+                <key id="0" time="24" spin="0">
+                    <object folder="0" file="40" x="-38.202247" y="159.550562" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="luci-birjaru_0013_Layer-117">
+                <key id="0" time="26" spin="0">
+                    <object folder="0" file="41" x="-37.078652" y="211.235955" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="luci-birjaru_0014_Layer-115">
+                <key id="0" time="28" spin="0">
+                    <object folder="0" file="42" x="-41.573034" y="238.202247" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="luci-birjaru_0015_Layer-113">
+                <key id="0" time="30" spin="0">
+                    <object folder="0" file="43" x="-39.325843" y="226.966292" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="luci-birjaru_0016_Layer-111">
+                <key id="0" time="32" spin="0">
+                    <object folder="0" file="44" x="-42.696629" y="214.606742" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="16" name="luci-birjaru_0017_Layer-109">
+                <key id="0" time="34" spin="0">
+                    <object folder="0" file="45" x="-43.820225" y="196.629213" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="17" name="luci-birjaru_0018_Layer-107">
+                <key id="0" time="36" spin="0">
+                    <object folder="0" file="46" x="-43.820225" y="192.134831" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="18" name="luci-birjaru_0019_Layer-105">
+                <key id="0" time="38" spin="0">
+                    <object folder="0" file="47" x="-44.94382" y="206.741573" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="19" name="luci-birjaru_0020_Layer-103">
+                <key id="0" time="40" spin="0">
+                    <object folder="0" file="48" x="-41.573034" y="191.011236" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="20" name="luci-birjaru_0021_Layer-101">
+                <key id="0" time="42" spin="0">
+                    <object folder="0" file="49" x="-52.808989" y="217.977528" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="21" name="luci-birjaru_0022_Layer-99">
+                <key id="0" time="44" spin="0">
+                    <object folder="0" file="50" x="-42.696629" y="211.235955" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="22" name="luci-birjaru_0023_Layer-97">
+                <key id="0" time="46" spin="0">
+                    <object folder="0" file="51" x="-49.438202" y="187.640449" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="23" name="luci-birjaru_0024_Layer-95">
+                <key id="0" time="48" spin="0">
+                    <object folder="0" file="52" x="-50.561798" y="214.606742" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="24" name="luci-birjaru_0025_Layer-93">
+                <key id="0" time="50" spin="0">
+                    <object folder="0" file="53" x="-47.191011" y="197.752809" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="25" name="luci-birjaru_0026_Layer-91">
+                <key id="0" time="52" spin="0">
+                    <object folder="0" file="54" x="-53.932584" y="171.910112" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="26" name="luci-birjaru_0027_Layer-89">
+                <key id="0" time="54" spin="0">
+                    <object folder="0" file="55" x="-55.05618" y="203.370787" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="27" name="luci-birjaru_0028_Layer-87">
+                <key id="0" time="56" spin="0">
+                    <object folder="0" file="56" x="-47.191011" y="241.573034" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="28" name="luci-birjaru_0029_Layer-85">
+                <key id="0" time="58" spin="0">
+                    <object folder="0" file="57" x="-44.94382" y="237.078652" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="29" name="luci-birjaru_0030_Layer-83">
+                <key id="0" time="60" spin="0">
+                    <object folder="0" file="58" x="-44.94382" y="258.426966" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="30" name="luci-birjaru_0031_Layer-81">
+                <key id="0" time="62" spin="0">
+                    <object folder="0" file="59" x="-49.438202" y="237.078652" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="31" name="luci-birjaru_0032_Layer-79">
+                <key id="0" time="64" spin="0">
+                    <object folder="0" file="60" x="-49.438202" y="238.202247" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="32" name="luci-birjaru_0033_Layer-77">
+                <key id="0" time="66" spin="0">
+                    <object folder="0" file="61" x="-46.067416" y="249.438202" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="33" name="luci-birjaru_0034_Layer-75">
+                <key id="0" time="68" spin="0">
+                    <object folder="0" file="62" x="-44.94382" y="222.47191" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="34" name="luci-birjaru_0035_Layer-73">
+                <key id="0" time="70" spin="0">
+                    <object folder="0" file="63" x="-58.426966" y="233.707865" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="35" name="luci-birjaru_0036_Layer-71">
+                <key id="0" time="72" spin="0">
+                    <object folder="0" file="64" x="-56.179775" y="213.483146" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="36" name="luci-birjaru_0037_Layer-69">
+                <key id="0" time="74" spin="0">
+                    <object folder="0" file="65" x="-48.314607" y="235.955056" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="37" name="luci-birjaru_0038_Layer-67">
+                <key id="0" time="76" spin="0">
+                    <object folder="0" file="66" x="-49.438202" y="217.977528" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="38" name="luci-birjaru_0039_Layer-65">
+                <key id="0" time="78" spin="0">
+                    <object folder="0" file="67" x="-47.191011" y="189.88764" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="39" name="luci-birjaru_0040_Layer-63">
+                <key id="0" time="80" spin="0">
+                    <object folder="0" file="68" x="-43.820225" y="204.494382" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="40" name="luci-birjaru_0041_Layer-61">
+                <key id="0" time="82" spin="0">
+                    <object folder="0" file="69" x="-34.831461" y="220.224719" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="41" name="luci-birjaru_0042_Layer-59">
+                <key id="0" time="84" spin="0">
+                    <object folder="0" file="70" x="-42.696629" y="191.011236" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="42" name="luci-birjaru_0043_Layer-57">
+                <key id="0" time="86" spin="0">
+                    <object folder="0" file="71" x="-48.314607" y="173.033708" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="43" name="luci-birjaru_0044_Layer-55">
+                <key id="0" time="88" spin="0">
+                    <object folder="0" file="72" x="-49.438202" y="182.022472" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="44" name="luci-birjaru_0045_Layer-53">
+                <key id="0" time="90" spin="0">
+                    <object folder="0" file="73" x="-40.449438" y="207.865169" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="45" name="luci-birjaru_0046_Layer-51">
+                <key id="0" time="92" spin="0">
+                    <object folder="0" file="74" x="-47.191011" y="232.58427" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="46" name="luci-birjaru_0047_Layer-49">
+                <key id="0" time="94" spin="0">
+                    <object folder="0" file="75" x="-43.820225" y="215.730337" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="47" name="luci-birjaru_0048_Layer-47">
+                <key id="0" time="96" spin="0">
+                    <object folder="0" file="76" x="-46.067416" y="186.516854" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="48" name="luci-birjaru_0049_Layer-45">
+                <key id="0" time="98" spin="0">
+                    <object folder="0" file="77" x="-48.314607" y="216.853933" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="49" name="luci-birjaru_0050_Layer-43">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="78" x="-46.067416" y="182.022472" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="50" name="luci-birjaru_0051_Layer-41">
+                <key id="0" time="102" spin="0">
+                    <object folder="0" file="79" x="-48.314607" y="180.898876" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="51" name="luci-birjaru_0052_Layer-39">
+                <key id="0" time="104" spin="0">
+                    <object folder="0" file="80" x="-43.820225" y="195.505618" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="52" name="luci-birjaru_0053_Layer-37">
+                <key id="0" time="106" spin="0">
+                    <object folder="0" file="81" x="-43.820225" y="221.348315" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="53" name="luci-birjaru_0054_Layer-35">
+                <key id="0" time="108" spin="0">
+                    <object folder="0" file="82" x="-40.449438" y="212.359551" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="54" name="luci-birjaru_0055_Layer-33">
+                <key id="0" time="110" spin="0">
+                    <object folder="0" file="83" x="-49.438202" y="243.820225" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="55" name="luci-birjaru_0056_Layer-31">
+                <key id="0" time="112" spin="0">
+                    <object folder="0" file="84" x="-47.191011" y="221.348315" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="56" name="luci-birjaru_0057_Layer-29">
+                <key id="0" time="114" spin="0">
+                    <object folder="0" file="85" x="-42.696629" y="198.876404" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="57" name="luci-birjaru_0058_Layer-27">
+                <key id="0" time="116" spin="0">
+                    <object folder="0" file="86" x="-39.325843" y="248.314607" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="58" name="luci-birjaru_0059_Layer-25">
+                <key id="0" time="118" spin="0">
+                    <object folder="0" file="87" x="-42.696629" y="230.337079" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="59" name="luci-birjaru_0060_Layer-23">
+                <key id="0" time="120" spin="0">
+                    <object folder="0" file="88" x="-42.696629" y="183.146067" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="60" name="luci-birjaru_0061_Layer-21">
+                <key id="0" time="122" spin="0">
+                    <object folder="0" file="89" x="-40.449438" y="210.11236" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="61" name="luci-birjaru_0062_Layer-19">
+                <key id="0" time="124" spin="0">
+                    <object folder="0" file="90" x="-39.325843" y="243.820225" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="62" name="luci-birjaru_0063_Layer-18">
+                <key id="0" time="126" spin="0">
+                    <object folder="0" file="91" x="-46.067416" y="223.595506" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="63" name="luci-birjaru_0064_Layer-16">
+                <key id="0" time="128" spin="0">
+                    <object folder="0" file="92" x="-47.191011" y="198.876404" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="64" name="luci-birjaru_0065_Layer-14">
+                <key id="0" time="130" spin="0">
+                    <object folder="0" file="93" x="-41.573034" y="214.606742" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="65" name="luci-birjaru_0066_Layer-10">
+                <key id="0" time="132" spin="0">
+                    <object folder="0" file="94" x="-42.696629" y="228.089888" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="66" name="luci-birjaru_0067_Layer-8">
+                <key id="0" time="134" spin="0">
+                    <object folder="0" file="95" x="-38.202247" y="196.629213" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="67" name="luci-birjaru_0068_Layer-6">
+                <key id="0" time="136" spin="0">
+                    <object folder="0" file="96" x="-42.696629" y="222.47191" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="68" name="luci-birjaru_0069_Layer-4">
+                <key id="0" time="138" spin="0">
+                    <object folder="0" file="97" x="-43.820225" y="216.853933" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="69" name="luci-birjaru_0070_Layer-2">
+                <key id="0" time="140" spin="0">
+                    <object folder="0" file="98" x="-43.820225" y="219.101124" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+    <entity id="1" name="entity_000">
+        <animation id="0" name="blow up" length="160" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                </key>
+                <key id="1" time="9">
+                    <object_ref id="0" timeline="1" key="0" z_index="0"/>
+                </key>
+                <key id="2" time="21">
+                    <object_ref id="0" timeline="2" key="0" z_index="0"/>
+                </key>
+                <key id="3" time="30">
+                    <object_ref id="0" timeline="3" key="0" z_index="0"/>
+                </key>
+                <key id="4" time="38">
+                    <object_ref id="0" timeline="4" key="0" z_index="0"/>
+                </key>
+                <key id="5" time="49">
+                    <object_ref id="0" timeline="5" key="0" z_index="0"/>
+                </key>
+                <key id="6" time="59">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="7" time="61">
+                    <object_ref id="0" timeline="6" key="0" z_index="0"/>
+                </key>
+                <key id="8" time="68">
+                    <object_ref id="0" timeline="6" key="1" z_index="0"/>
+                </key>
+                <key id="9" time="80">
+                    <object_ref id="0" timeline="7" key="0" z_index="0"/>
+                </key>
+                <key id="10" time="89">
+                    <object_ref id="0" timeline="8" key="0" z_index="0"/>
+                </key>
+                <key id="11" time="100">
+                    <object_ref id="0" timeline="9" key="0" z_index="0"/>
+                </key>
+                <key id="12" time="109">
+                    <object_ref id="0" timeline="10" key="0" z_index="0"/>
+                </key>
+                <key id="13" time="118">
+                    <object_ref id="0" timeline="11" key="0" z_index="0"/>
+                </key>
+                <key id="14" time="127">
+                    <object_ref id="0" timeline="12" key="0" z_index="0"/>
+                </key>
+                <key id="15" time="139">
+                    <object_ref id="0" timeline="13" key="0" z_index="0"/>
+                </key>
+                <key id="16" time="149">
+                    <object_ref id="0" timeline="14" key="0" z_index="0"/>
+                </key>
+                <key id="17" time="160">
+                    <object_ref id="0" timeline="15" key="0" z_index="0"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="luci-birjaru_0015_Layer-1">
+                <key id="0" spin="0">
+                    <object folder="0" file="99" x="-256" y="304" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="luci-birjaru_0014_Layer-2">
+                <key id="0" time="9" spin="0">
+                    <object folder="0" file="101" x="-256" y="299" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="luci-birjaru_0013_Layer-3">
+                <key id="0" time="21" spin="0">
+                    <object folder="0" file="102" x="-260" y="308" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="luci-birjaru_0012_Layer-4">
+                <key id="0" time="30" spin="0">
+                    <object folder="0" file="103" x="-260" y="314" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="luci-birjaru_0011_Layer-5">
+                <key id="0" time="38" spin="0">
+                    <object folder="0" file="104" x="-261" y="315" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="5" name="luci-birjaru_0010_Layer-6">
+                <key id="0" time="49" spin="0">
+                    <object folder="0" file="105" x="-268" y="320" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="6" name="luci-birjaru_0009_Layer-7">
+                <key id="0" time="59" spin="0">
+                    <object folder="0" file="106" x="-273" y="324" angle="0"/>
+                </key>
+                <key id="1" time="68" spin="0">
+                    <object folder="0" file="106" x="-273" y="324" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="7" name="luci-birjaru_0008_Layer-8">
+                <key id="0" time="80" spin="0">
+                    <object folder="0" file="107" x="-273" y="324" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="8" name="luci-birjaru_0007_Layer-9">
+                <key id="0" time="89" spin="0">
+                    <object folder="0" file="108" x="-270" y="328" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="9" name="luci-birjaru_0006_Layer-10">
+                <key id="0" time="100" spin="0">
+                    <object folder="0" file="109" x="-272" y="337" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="10" name="luci-birjaru_0005_Layer-11">
+                <key id="0" time="109" spin="0">
+                    <object folder="0" file="110" x="-275" y="342" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="11" name="luci-birjaru_0004_Layer-12">
+                <key id="0" time="118" spin="0">
+                    <object folder="0" file="111" x="-276" y="352" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="12" name="luci-birjaru_0003_Layer-13">
+                <key id="0" time="127" spin="0">
+                    <object folder="0" file="112" x="-271" y="355" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="13" name="luci-birjaru_0002_Layer-14">
+                <key id="0" time="139" spin="0">
+                    <object folder="0" file="113" x="-263" y="354" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="14" name="luci-birjaru_0001_Layer-15">
+                <key id="0" time="149" spin="0">
+                    <object folder="0" file="114" x="-263" y="356" angle="0"/>
+                </key>
+            </timeline>
+            <timeline id="15" name="luci-birjaru_0000_Layer-16">
+                <key id="0" time="160" spin="0">
+                    <object folder="0" file="115" x="-260" y="344" angle="0"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>

@@ -15,6 +15,8 @@ import com.pesna.spriter.LibGdx.SpriterAnimationBundle;
 import java.io.IOException;
 import java.util.Scanner;
 
+import static java.lang.System.*;
+
 public class GameRegistry {
 	private final Main reference;
 	public ItemManager itemManager;
@@ -27,7 +29,7 @@ public class GameRegistry {
 		reference = _reference;
 		itemManager = new ItemManager( reference );
 		animationManager = new AnimationManager( reference );
-		levelManager = new LevelManager( reference );
+		levelManager = new LevelManager();
 		reference.assetManager.load("ItemsSprites/rock.png", Texture.class );
 		reference.assetManager.load("ItemsSprites/wall.png", Texture.class );
 		reference.assetManager.load("ItemsSprites/tree.PNG" , Texture.class);
@@ -53,7 +55,7 @@ public class GameRegistry {
 		//Replace those assignTextures with the constructor.. for some cases TODO
 		itemManager.assignTextures( reference.assetManager ); // assign textures to each item
 		animationManager.assignTextures( reference.assetManager );
-		levelManager.assignTextures( reference.assetManager );
+
 		
 		//At last
 		reference.screenManager.onAssetsLoaded( reference );
@@ -62,6 +64,12 @@ public class GameRegistry {
 
 	public com.brashmonkey.spriter.Data werewolfData;
 	public LibGdxLoader werewolfLoader;
+
+	public com.brashmonkey.spriter.Data fireballData;
+    public LibGdxLoader fireballLoader;
+
+	public com.brashmonkey.spriter.Data redGhostData;
+	public LibGdxLoader redGhostLoader;
 
 	public com.brashmonkey.spriter.Data pesnaIdleData;
 	public LibGdxLoader pesnaIdleLoader;
@@ -83,21 +91,21 @@ public class GameRegistry {
 		FileHandle modRoot;
 		FileHandle handle;
 
-		String directory = System.getProperty("user.dir");
+		String directory = getProperty("user.dir");
 		modRoot = Gdx.files.absolute(directory);
 		modRoot = modRoot.parent().parent();
-		System.out.println(modRoot.path());
+		out.println(modRoot.path());
 
 		handle = modRoot.child("story.txt");
 
 		if ( handle.exists() )
-			System.out.println("File Found!");
+			out.println("File Found!");
 		else
-			System.out.println("File NOT Found!");
+			out.println("File NOT Found!");
 
 		Scanner scanner = new Scanner(handle.read());
 
-		int length = 0;
+		int length;
 
 		String[] assetList = new String[SpriterGraphicsMaxCount];
 
@@ -106,17 +114,30 @@ public class GameRegistry {
 		for ( int i = 0; i < length; i++ )
 		{
 			assetList[i] = scanner.nextLine();
-			System.out.println(assetList[i]);
+			out.println(assetList[i]);
 		}
 
-		//System.out.println(directory);
+		/*
+		System.out.println(directory);
+		TODO : Here you create the list of filenames for scmls to be loaded ( order matters ), and also read the animation configurations
+		*/
 
-		//TODO : Here you create the list of filenames for scmls to be loaded ( order matters ), and also read the animation configurations
 		/*
 		String[] assetList = { "werewolf/Mircea.json.scml",
 				"martinica/martinica.scml",
 				"lucifer/NewProject.autosave.scml"
 		};*/
+		FileHandle secondhandle = Gdx.files.internal("lucifer/NewProject.autosave.scml");
+		redGhostData = new SCMLReader( secondhandle.read() ).getData();
+		redGhostLoader = new LibGdxLoader(redGhostData);
+		redGhostLoader.load(secondhandle.file());
+		reference.werewolfDrawer = new LibGdxDrawer(redGhostLoader, reference.batch, reference.shapeRenderer);
+
+		FileHandle fireballHandler = Gdx.files.absolute("Fireball/fireball.scml");
+		fireballData = new SCMLReader(fireballHandler.read()).getData();
+		fireballLoader = new LibGdxLoader(fireballData);
+		fireballLoader.load(fireballHandler.file());
+        reference.fireballDrawer = new LibGdxDrawer(fireballLoader, reference.batch, reference.shapeRenderer);
 
 		int animationSpeed=1, entityID=0, animationID=0, yOffset=0;
 		boolean mainLoader=true;
@@ -133,7 +154,7 @@ public class GameRegistry {
 			yOffset = scanner.nextInt();
 			//mainLoader = scanner.nextBoolean();
 			projectionScale = scanner.nextFloat();
-			animationBundles[index].run  = new SpriterAnimation( animationSpeed, entityID, animationID, yOffset, mainLoader, projectionScale );
+			animationBundles[index].run  = new SpriterAnimation( animationSpeed * 40, entityID, animationID, yOffset, mainLoader, projectionScale );
 			//read for idle
 			animationSpeed = scanner.nextInt();
 			entityID = scanner.nextInt();
@@ -149,7 +170,7 @@ public class GameRegistry {
 			yOffset = scanner.nextInt();
 			//mainLoader = scanner.nextBoolean();
 			projectionScale = scanner.nextFloat();
-			animationBundles[index].attack=new SpriterAnimation( animationSpeed, entityID, animationID, yOffset, mainLoader, projectionScale );
+			animationBundles[index].attack=new SpriterAnimation( animationSpeed * 3, entityID, animationID, yOffset, mainLoader, projectionScale );
 		}
 
 		for ( int index = 0; index < length; index++ )
@@ -200,5 +221,7 @@ public class GameRegistry {
 		pesnaMoveLoader = new LibGdxLoader( pesnaMoveData );
 		pesnaMoveLoader.load(handle.file());
 		reference.pesnaMoveDrawer = new LibGdxDrawer( pesnaMoveLoader, reference.batch, reference.shapeRenderer );
+
+
 	}
 }

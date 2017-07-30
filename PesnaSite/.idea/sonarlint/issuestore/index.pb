@@ -1,0 +1,21 @@
+
+6
+app.js,4\a\4a68969ef8e858229267b842dedf42ab5dde4d50
+9
+	jsons.txt,8\c\8c48c1472c7832102a5eb579290f896f638d48b6
+H
+views\submitComplete.ejs,3\6\36f240703aea9685e267fe5d09484c10306f9770
+D
+routes\submitTale.js,6\6\6699cce1f6137d08ba2c950ef5509ae1c261429e
+>
+routes\team.js,a\4\a4755b2935138d00aec4818542e6589a9262f01f
+?
+routes\tales.js,a\8\a8ff3ec55cdc2e860812d5b78af4cb0eaeb87723
+J
+views\templates\footer.ejs,7\d\7d347421599f63647b6d4b81405606bbfe6ed6f0
+>
+views\team.ejs,e\8\e85fb58bc89b22f16ba24425981eb8ac6272604d
+?
+views\tales.ejs,5\1\5159a1f4a2934cc85b96bc06c1e77b2766667d1d
+D
+views\submitTale.ejs,f\d\fdae9695cf149f87cca02e57941518f7e9edc364

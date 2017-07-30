@@ -11,6 +11,8 @@ import com.badlogic.gdx.math.Matrix4;
 import com.badlogic.gdx.math.Vector3;
 import com.pesna.Main;
 import com.pesna.dialog.DialogBuilder;
+import com.pesna.entities.Bear;
+import com.pesna.entities.EnemyBot;
 import com.pesna.entities.EnemyObject;
 import com.pesna.objects.ScreenObject;
 import com.pesna.objects.SimpleLabel;
@@ -220,11 +222,10 @@ public class PlayerSecond implements ScreenObject {
                 autoattackTimer.setNewTime(animation.getAnimationDuration() +1.1f);
                 if(autoattackTimer.TimeElapsed())
                 {
-                    for(EnemyObject enemy : reference.screenManager.gameScreen.GetLevelEnemy())
+                    for(Bear enemy : reference.screenManager.gameScreen.GetLevelEnemy())
                     {
                         if( false )//enemy.IS_IN_RANGE(this, 30))
                         {
-                            enemy.TakeDamage(DAMAGE);
                             if (ultimateUsed) {
                                 DAMAGE -= 100;
                                 ultimateUsed = false;

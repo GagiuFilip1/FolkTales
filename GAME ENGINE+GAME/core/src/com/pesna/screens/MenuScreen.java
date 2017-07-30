@@ -4,7 +4,8 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.graphics.Texture;
 import com.pesna.Main;
-import com.pesna.entities.EnemyObject;
+import com.pesna.entities.Bear;
+import com.pesna.entities.EnemyBot;
 import com.pesna.gui.GuiButton;
 import com.pesna.objects.ScreenObject;
 
@@ -12,7 +13,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class MenuScreen implements IScreen, InputProcessor {
-	public ArrayList<GuiButton> buttons = new ArrayList<GuiButton>();
+	ArrayList<GuiButton> buttons = new ArrayList<GuiButton>();
 	
 	Texture background;
 	
@@ -75,7 +76,7 @@ public class MenuScreen implements IScreen, InputProcessor {
 	}
 
 	@Override
-	public LinkedList<EnemyObject> GetLevelEnemy() {
+	public LinkedList<Bear> GetLevelEnemy() {
 		return null;
 	}
 
