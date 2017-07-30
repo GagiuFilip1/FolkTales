@@ -30,6 +30,7 @@ public class Main extends ApplicationAdapter {
   public InfoViewer infoViewer;
   public ColaborationModule colaborationModule;
   public ScreenManager screenManager;
+  public boolean IS_LOGGED = false;
 
   @Override
   public void create() {

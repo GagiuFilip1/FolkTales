@@ -37,7 +37,6 @@ public class EditorGUI extends screenObject
         viewer = new Viewer(reference);
         viewer.selector.files.directedPath = "platforms";
         viewer.selector.files.start();
-
         viewer.ID = 1;
       }
       if (Gdx.input.isKeyJustPressed(Keys.NUM_2)) {

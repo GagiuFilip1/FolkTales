@@ -4,6 +4,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
 import com.mygdx.game.Main;
 import com.mygdx.game.abstracts.screenObject;
+import com.mygdx.game.chatModules.XMPPbuilder;
 import com.mygdx.game.objects.Square;
 
 /**
@@ -12,42 +13,42 @@ import com.mygdx.game.objects.Square;
 public class ColaborationModule
 {
 
-    public final ColaborationOn onlineBuilder;
+    public final XMPPbuilder onlineBuilder;
     private final Main ref;
     public ColaborationModule(Main _ref)
     {
-        onlineBuilder = new ColaborationOn();
+        onlineBuilder = new XMPPbuilder();
         ref = _ref;
     }
 
     public void Receive()
     {
-        if (onlineBuilder.platform != null)
+        if (onlineBuilder.socketBuilder.platform != null)
         {
             screenObject sq = new Square(ref);
             sq = ref.editorFunctions.AddPLatform(((Square) sq));
-            ((Square) sq).SetTexture(new Texture(Gdx.files.internal(onlineBuilder.platform)));
+            ((Square) sq).SetTexture(new Texture(Gdx.files.internal(onlineBuilder.socketBuilder.platform )));
             ref.editor.addToRuntime(sq, 1);
-            ref.mapCreator.putData("platform " + onlineBuilder.platform);
-            onlineBuilder.platform = null;
+            ref.mapCreator.putData("platform " + onlineBuilder.socketBuilder.platform );
+            onlineBuilder.socketBuilder.platform = null;
         }
-        if (onlineBuilder.background != null)
+        if (onlineBuilder.socketBuilder.background != null)
         {
             screenObject sq = new Square(ref);
             sq = ref.editorFunctions.AddBackground(((Square) sq));
-            ((Square) sq).SetTexture(new Texture(Gdx.files.internal(onlineBuilder.background)));
+            ((Square) sq).SetTexture(new Texture(Gdx.files.internal(onlineBuilder.socketBuilder.background)));
             ref.editor.addToRuntime(sq, 1);
-            ref.mapCreator.putData("background " + onlineBuilder.background);
-            onlineBuilder.background = null;
+            ref.mapCreator.putData("background " + onlineBuilder.socketBuilder.background);
+            onlineBuilder.socketBuilder.background = null;
         }
-        if(onlineBuilder.story != null)
+        if(onlineBuilder.socketBuilder.story != null)
         {
-            ref.mapCreator.putData("story " + onlineBuilder.story);
-            onlineBuilder.story = null;
+            ref.mapCreator.putData("story " + onlineBuilder.socketBuilder.story);
+            onlineBuilder.socketBuilder.story = null;
         }
-        if(onlineBuilder.level != null)
+        if(onlineBuilder.socketBuilder.level != null)
         {
-            ref.mapCreator.putData("level " + onlineBuilder.level);
+            ref.mapCreator.putData("level " + onlineBuilder.socketBuilder.level);
         }
     }
 }

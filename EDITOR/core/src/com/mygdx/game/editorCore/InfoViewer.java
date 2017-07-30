@@ -66,8 +66,8 @@ public class InfoViewer extends screenObject
       SetButton.Update();
       dialogBox.Update();
       levelBox.Update();
-      saveAction();
     }
+      saveAction();
   }
 
   @Override
@@ -83,11 +83,19 @@ public class InfoViewer extends screenObject
   {
     if(SetButton.IsClicked())
     {
-      ref.mapCreator.putData("level " +  levelBox.textData);
-      ref.mapCreator.putData("story " + dialogBox.textData);
-        ref.colaborationModule.onlineBuilder.sendStory(String.valueOf(dialogBox.textData));
-        ref.colaborationModule.onlineBuilder.sendLevel(String.valueOf(levelBox.textData));
+        if(levelBox.textData != null) {
+            ref.mapCreator.putData("level " + levelBox.textData);
+            ref.mapCreator.putData("story " + dialogBox.textData);
+        }
+        try {
+            ref.colaborationModule.onlineBuilder.socketBuilder.sendStory(String.valueOf(dialogBox.textData));
+            ref.colaborationModule.onlineBuilder.socketBuilder.sendLevel(String.valueOf(levelBox.textData));
+        }catch (Exception ignore)
+        {
+
+        }
       ShouldDraw = false;
     }
+
   }
 }

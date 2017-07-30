@@ -57,5 +57,4 @@ public class EditorFunctions {
     } catch (Exception ex) {//_______________\\ Unhandled Exception
     }
   }
-
 }

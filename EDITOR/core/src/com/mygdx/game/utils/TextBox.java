@@ -81,9 +81,13 @@ public class TextBox extends screenObject {
 
   private void addText() {
     textData += keyboardInput.getChar();
-    if (Gdx.input.isKeyPressed(Keys.BACKSPACE) && textData.length() >= 0)
+    if (Gdx.input.isKeyPressed(Keys.BACKSPACE) && textData.length() >= 1)
       textData = textData.substring(0, textData.length() - 1);
+  }
 
+  public void Clear()
+  {
+    textData = "";
   }
 
 

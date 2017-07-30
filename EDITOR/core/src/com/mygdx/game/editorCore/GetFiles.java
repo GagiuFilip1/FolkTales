@@ -14,7 +14,7 @@ public class GetFiles
 
   public String directedPath;
 
-  private LinkedList<String> names = new LinkedList<>();
+  public LinkedList<String> names = new LinkedList<>();
 
   public void start()
   {

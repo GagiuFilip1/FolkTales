@@ -1,6 +1,7 @@
 package com.mygdx.game.editorCore;
 
 import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
@@ -56,10 +57,11 @@ public class Viewer extends screenObject {
             sq = reference.editorFunctions.AddPLatform(((Square) sq));
             ((Square) sq).SetTexture(selector.textures.get(selector.textureID));
             reference.editor.addToRuntime(sq, 1);
-            Data = "platform " + selector.textureID;
+              System.out.println(selector.files.names.get(selector.textureID));
+            Data = "platform " + selector.files.names.get(selector.textureID);
             reference.mapCreator.putData(Data);
             String path = ((FileTextureData)selector.textures.get(selector.textureID).getTextureData()).getFileHandle().path();
-            reference.colaborationModule.onlineBuilder.sendPlatform(String.valueOf(path));
+            reference.colaborationModule.onlineBuilder.socketBuilder.sendPlatform(String.valueOf(path));
             WasClicked = true;
             break;
 
@@ -67,21 +69,21 @@ public class Viewer extends screenObject {
             sq = reference.editorFunctions.AddBackground(((Square) sq));
             ((Square) sq).SetTexture(selector.textures.get(selector.textureID));
             reference.editor.addToRuntime(sq, 1);
-            Data = "background " + String.valueOf(selector.textures.indexOf(selector.textures.get(selector.textureID)));
+            Data = "background " + selector.files.names.get(selector.textureID);
             reference.mapCreator.putData(Data);
             path = ((FileTextureData) selector.textures.get(selector.textureID).getTextureData()).getFileHandle().path();
-            reference.colaborationModule.onlineBuilder.sendBackground(String.valueOf(path));
+            reference.colaborationModule.onlineBuilder.socketBuilder.sendBackground(String.valueOf(path));
             WasClicked = true;
             break;
 
           case 3 :
-            Data = "spawner " + String.valueOf(selector.textures.indexOf(selector.textures.get(selector.textureID)));
+            Data = "spawner " + selector.files.names.get(selector.textureID);
             reference.mapCreator.putData(Data);
             WasClicked = true;
             break;
 
           case 4:
-            Data = "boss " + String.valueOf(selector.textures.indexOf(selector.textures.get(selector.textureID)));
+            Data = "boss " + selector.files.names.get(selector.textureID);
             reference.mapCreator.putData(Data);
             WasClicked = true;
             break;
@@ -94,6 +96,11 @@ public class Viewer extends screenObject {
     if (WasClicked) {
       ShouldDraw = false;
       reference.editor.removeFromRuntime(this);
+    }
+    if(selector.neutralize)
+    {
+        ShouldDraw = false;
+        reference.editor.removeFromRuntime(this);
     }
   }
 
@@ -147,7 +154,6 @@ class boxOfInfo {
       for (String s : files.recover()) {
         if(auxiliarIndex >= files.recover().size())
         {
-
           Added = true;
         }
         try {
@@ -167,21 +173,25 @@ class boxOfInfo {
       hitBoxes.add(new Rectangle(x, y, 40, 40));
     }
   }
-
+protected boolean neutralize = false;
   public boolean IsCliked() {
-    Vector3 getMousePosInGameWorld;
-    getMousePosInGameWorld = main.camera
-        .unproject(new Vector3(Gdx.input.getX(), Gdx.input.getY(), 0));
-    float ix = getMousePosInGameWorld.x, iy = getMousePosInGameWorld.y;
-    for (Rectangle position : hitBoxes) {
-      if (ix > position.x && ix < position.x + position.getWidth()) {
-        if (iy > position.y && iy < position.y + position.getHeight()) {
-          if (Gdx.input.isKeyJustPressed(Keys.ALT_LEFT)) {
-            textureID = hitBoxes.indexOf(position);
-            return true;
+    if(!neutralize) {
+      Vector3 getMousePosInGameWorld;
+      getMousePosInGameWorld = main.camera
+              .unproject(new Vector3(Gdx.input.getX(), Gdx.input.getY(), 0));
+      float ix = getMousePosInGameWorld.x, iy = getMousePosInGameWorld.y;
+      for (Rectangle position : hitBoxes) {
+        if (ix > position.x && ix < position.x + position.getWidth()) {
+          if (iy > position.y && iy < position.y + position.getHeight()) {
+            if (Gdx.input.isButtonPressed(Input.Buttons.LEFT)) {
+              textureID = hitBoxes.indexOf(position);
+              neutralize = true;
+              return true;
+            }
           }
         }
       }
+      return false;
     }
     return false;
   }
